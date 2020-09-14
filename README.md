@@ -5,7 +5,7 @@ The tool is implemented with the algorithm described in this [paper](https://per
 
 # How does it work?
 
-The application allows users to crop image and decide what percentage of size they want to reduce it to.
+The application allows users to crop image and decide what percentage of size they want to reduce it to while still preserving the prominet features
 
 The algorithm creates a mapping of weights on each pixel by summing the absolute value of the partial derivative of the images in x-axis and y-axis.
 It is done by convoling against the image with a 3x3 [sobel filter](https://en.wikipedia.org/wiki/Sobel_operator)
