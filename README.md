@@ -2,7 +2,7 @@
 A snipping tool that resizes the image intelligently using content aware scaling
 
 # Why
-The inspiration came when I was cropping some images for training data.
+The inspiration came when I was cropping some images for training data. I wanted a way to avoid squishing image and still preserve the features.
 
 The tool is implemented with the algorithm described in this [paper](https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf)
 
