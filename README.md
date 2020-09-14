@@ -1,6 +1,9 @@
 # INTLSnip
 A snipping tool that resizes the image intelligently using content aware scaling
 
+# Why
+The inspiration came when I was cropping some images for training data.
+
 The tool is implemented with the algorithm described in this [paper](https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf)
 
 GUI built with PyQt5
@@ -23,3 +26,7 @@ Example (50% reduction):
 
 ![Original](https://github.com/du00d/INTLSnip/blob/master/src/cropped/054057.jpg)
 ![Processed at 50% size](https://github.com/du00d/INTLSnip/blob/master/src/cropped/carved.jpg)
+
+# Potential Uses / Issues
+Because the algorithm looks for prominent features in the image, if you were to crop an image of a face and reduce it by 50%. If it thinks the eyes and mouth are more outlined than the shape of face. The resulting picture may make you look like an alien. This may be a bad thing if you are trying to make an instagram post. However, this could be potentially used in data augmentation for neural networks.
+
