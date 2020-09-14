@@ -18,7 +18,7 @@ Remove said path and repeating the same process will result in an image that pre
 
 For more information please see this [blog](https://karthikkaranth.me/blog/implementing-seam-carving-with-python/).
 
-Example:
+Example (50% reduction):
 
 ![Original](https://github.com/du00d/INTLSnip/blob/master/src/cropped/054057.jpg)
 ![Processed at 50% size](https://github.com/du00d/INTLSnip/blob/master/src/cropped/carved.jpg)
