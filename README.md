@@ -2,7 +2,7 @@
 A snipping tool that resizes the image intelligently using content aware scaling
 
 The tool is implemented with the algorithm described in this [paper](https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf)
-
+GUI built with PyQt5
 # How does it work?
 
 The application allows users to crop image and decide what percentage of size they want to reduce it to while still preserving the prominent features
