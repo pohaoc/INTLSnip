@@ -28,5 +28,5 @@ Example (50% reduction):
 ![Processed at 50% size](https://github.com/du00d/INTLSnip/blob/master/src/cropped/carved.jpg)
 
 # Potential Uses / Issues
-Because the algorithm looks for prominent features in the image, if you were to crop an image of a face and reduce it by 50%. If it thinks the eyes and mouth are more outlined than the shape of face. The resulting picture may make you look like an alien. This may be a bad thing if you are trying to make an instagram post. However, this could be potentially used in data augmentation for neural networks.
+Because the algorithm looks for prominent features in the image, if you were to crop an image of a face and reduce it by 50%. If it thinks the eyes and mouth are more outlined than the shape of face. The resulting picture may make you look like an alien. This may be not be a good thing if you are trying to make an instagram post. However, this could be potentially used in data augmentation for neural networks.
 
