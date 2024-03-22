@@ -2,14 +2,14 @@
 A snipping tool that resizes the image intelligently using content aware scaling
 
 # Why
-The inspiration came when I was cropping some images for training data. I wanted a way to avoid squishing image and still preserve the features.
+The inspiration came from cropping images for training data. I wanted a way to avoid squishing image, but still preserve the features.
 
 The tool is implemented with the algorithm described in this [paper](https://perso.crans.org/frenoy/matlab2012/seamcarving.pdf)
 
 GUI built with PyQt5
 # How does it work?
 
-The application allows users to crop image and decide what percentage of size they want to reduce it to while still preserving the prominent features
+This application allows users to crop image and decide the percentage of the original size they want to reduce it to while still preserving the prominent features
 
 The algorithm creates a mapping of weights on each pixel by summing the absolute value of the partial derivative of the images in x-axis and y-axis.
 It is done by convoling against the image with a 3x3 [sobel filter](https://en.wikipedia.org/wiki/Sobel_operator)
